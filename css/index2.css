@@ -1,0 +1,214 @@
+body {
+	background-color: #ffffff;
+	font-family: Lucida Console, Monaco, Monospace;
+	color: #000;
+	background-image: url('book_background.jpg');
+	background-repeat: no-repeat;
+	margin:0;
+}
+
+#container{
+	position: absolute;
+	background-image: url('pagebodytile.png');
+	background-repeat: repeat-y;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 1024px;
+}
+
+#header{
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#nav{
+}
+
+#nav li{
+	display: inline;
+	float: left;
+	padding-right: 15px;
+}
+
+.register{
+	display: block;
+	width: 150px;
+	height: 33px;
+	background: url('register.png') top;
+	text-indent: -99999px;
+}
+.register:hover{
+	background-position: bottom;
+}
+
+.login{
+	display: block;
+	width: 150px;
+	height: 33px;
+	background: url('login.png') top;
+	text-indent: -99999px;
+}
+.login:hover{
+	background-position: bottom;
+}
+
+.home{
+	display: block;
+	width: 1024px;
+	height: 150px;
+	background: url('logo1.png') top;
+	text-indent: -99999px;
+}
+.home:hover{
+	background-position: bottom;
+}
+
+.profile{
+	display: block;
+	width: 150px;
+	height: 33px;
+	background: url('myprofile.png') top;
+	text-indent: -99999px;
+}
+.profile:hover{
+	background-position: bottom;
+}
+
+.listing{
+	display: block;
+	width: 150px;
+	height: 33px;
+	background: url('listing.png') top;
+	text-indent: -99999px;
+}
+.listing:hover{
+	background-position: bottom;
+}
+
+.browse{
+	display: block;
+	width: 150px;
+	height: 33px;
+	background: url('browse.png') top;
+	text-indent: -99999px;
+}
+.browse:hover{
+	background-position: bottom;
+}
+
+.report{
+	display: block;
+	width: 150px;
+	height: 33px;
+	background: url('report.png') top;
+	text-indent: -99999px;
+}
+.report:hover{
+	background-position: bottom;
+}
+
+.users{
+	display: block;
+	width: 200px;
+	height: 50px;
+	background: url('users.png') top;
+	text-indent: -99999px;
+}
+.users:hover{
+	background-position: bottom;
+}
+
+.books{
+	display: block;
+	width: 200px;
+	height: 50px;
+	background: url('books.png') top;
+	text-indent: -99999px;
+}
+.books:hover{
+	background-position: bottom;
+}
+
+#pagebody{
+	margin-top: 150px;
+	padding: 20px;
+}
+
+.prettytable{ 
+	border-collapse: collapse;
+	margin: auto auto;
+}
+
+.prettytable a{
+	text-decoration: none;
+	color: #000;
+}
+
+.prettytable th, .prettytable td{ 
+	padding: 0.5em;
+	border: 1px dotted #666;
+}
+
+.prettytable th[scope=col]
+{
+	border-bottom: 2px solid #333;
+	border-right: 2px solid #333;
+}
+
+.prettytable th+th[scope=col]{
+	border-right: 1px dotted #666;
+}
+
+.prettytable th[scope=row]{
+	border-right: 2px solid #333;
+}
+
+.postlist{
+	margin-left: 40px;
+}
+
+.listingtable input {
+	width:800px;
+}
+
+
+#footer{
+	postion: fixed;
+	bottom: 20px;
+	height: 20px;
+	margin-left:500px;
+}
+
+fieldset.search {
+	border: none;
+	width: 243px;
+}
+.search input, .search button {
+	border: none;
+	float: left;
+}
+.search input.box {
+	font-size: 1.2em;
+	width: 190px;
+	height: 30px;
+	padding: 8px 5px 0;
+	background: url(search_bg.png) no-repeat;
+	margin-right: 5px;
+}
+.search input.box:focus {
+	background: url(search_bg.png) no-repeat left -38px;
+	outline: none;
+}
+.search button.btn {
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+	text-indent: -9999px;
+	background: url(search_bg.png) no-repeat top right;
+}
+.search button.btn:hover {
+	background: url(search_bg.png) no-repeat bottom right;
+}
+

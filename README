@@ -1,0 +1,9 @@
+Book Exchange Project
+
+Started April 2011, Ryan Kornheisl and Stefan Wickstrom
+
+About:
+This was a school project to create a prototype site that allowed users to create accounts and post listings of books they wanted or were selling, and a way to contact users to make an exchange. User profiles included contact info, ratings, and their current listings. This was the first (relatively) large website either of us had created. Stefan is a digital artist and primarily focused on style and design while Ryan, a computer scientist, focused on backend PHP programming.
+
+Status:
+While everything was working on development machine, it has come to our attention that moving it to other webspaces has caused it to break. This is something currently looked into with consideration to move the site to Symfony Framework.
