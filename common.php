@@ -1,8 +1,8 @@
 <?php
 
 $dbhost = 'localhost';
-$dbuser = 'ryanzero_book';
-$dbpass = 'conry';
+$dbuser = 'username';
+$dbpass = 'password';
 
 function dbConnect($db='') {
     global $dbhost, $dbuser, $dbpass;

@@ -27,7 +27,7 @@ $_SESSION['uid'] = $uid;
 $_SESSION['pwd'] = $pwd;
 $_SESSION['auth'] = $auth;
 
-dbConnect("ryanzero_booksite");
+dbConnect("booksite");
 $query = "select * from Users where user_id = '$uid' and password = '$pwd'";
 $result = mysql_query($query) or die(mysql_error());
 if(!$result)
